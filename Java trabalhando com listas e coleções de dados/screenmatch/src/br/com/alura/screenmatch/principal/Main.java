@@ -1,3 +1,5 @@
+package br.com.alura.screenmatch.principal;
+
 import br.com.alura.screenmatch.calculos.CalculadoraDeTempo;
 import br.com.alura.screenmatch.calculos.FiltroRecomendacao;
 import br.com.alura.screenmatch.modelos.Episodio;
@@ -55,5 +57,7 @@ public class Main {
         System.out.println(listaDeFilmes.get(0).getTitle());
         System.out.println(listaDeFilmes.get(1).getTitle());
         System.out.println(listaDeFilmes.get(2).getTitle());
+
+
     }
 }

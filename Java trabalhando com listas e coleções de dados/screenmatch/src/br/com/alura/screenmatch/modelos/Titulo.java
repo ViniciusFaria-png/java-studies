@@ -73,4 +73,9 @@ public class Titulo {
     public double averageRating() {
         return sumOfRatings / totalRatings;
     }
+
+    @Override
+    public String toString() {
+        return "Title: " + title;
+    }
 }

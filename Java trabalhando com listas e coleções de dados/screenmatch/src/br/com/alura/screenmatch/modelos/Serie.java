@@ -53,4 +53,14 @@ public class Serie extends Titulo implements Classificavel {
     public int getClassificacao() {
         return (int) averageRating();
     }
+
+    @Override
+    public String toString() {
+        return "Serie{" +
+                "temporadas=" + temporadas +
+                ", ativa=" + ativa +
+                ", epPerSeason=" + epPerSeason +
+                ", minutesPerEp=" + minutesPerEp +
+                '}';
+    }
 }
